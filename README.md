@@ -1,3 +1,12 @@
+
+ 配置antd大致用到到命令
+yarn add antd
+yarn add react-app-rewired customize-cra
+yarn add babel-plugin-import
+yarn add less less-loader
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
