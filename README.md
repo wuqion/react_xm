@@ -1,12 +1,16 @@
 
 配置antd大致用到到命令
 yarn add antd
-yarn add react-app-rewired customize-cra
+yarn add react-app-rewired customize-cra （定制react脚手架）
 yarn add babel-plugin-import
 yarn add less less-loader
 
-添加react-router-dom
+添加react-router-dom (路由)
 yarn add react-router-dom
+
+添加 react-loadable （用于路由的懒加载）
+yarn add react-loadable
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
