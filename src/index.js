@@ -12,9 +12,9 @@ import App from './App'
 ReactDOM.render(
     <Router>
         <Switch>
-            <Route path="/admin" render={()=>{
+            <Route path="/admin" render={(routerProps)=>{
                 return (
-                    <App></App>
+                    <App {...routerProps}></App>
                 )
             }} />
             {mainRoutes.map((item)=>{
