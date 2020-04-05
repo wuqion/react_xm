@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 
-export default class App extends Component {
+export default class Settings extends Component {
     render() {
         return (
             <div>
-                app
-                {/* <Button type="primary">Button</Button> */}
+                Settings
             </div>
         )
     }
